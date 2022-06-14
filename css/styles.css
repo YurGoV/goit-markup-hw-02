@@ -113,6 +113,27 @@ text-transform: uppercase;
     background-color: #188CE8;
 }
 
+.filters-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    color: #FFFFFF;
+    ;
+}
+
 .difference-list-items {
     width: 270px;
     height: 101px;
@@ -207,22 +228,3 @@ text-transform: uppercase;
     color: #757575;
 }
 
-.filters-btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-}
-
-.filters-btn:hover,
-.filters-btn:focus {
-    color: #FFFFFF;;
-}
